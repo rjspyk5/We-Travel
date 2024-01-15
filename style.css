@@ -140,6 +140,43 @@ padding: 16px;
     padding: 14px 35px;
 }
 
+/* Why Choose us */
+.card{
+    max-width: 573px;
+    padding: 32px;
+    border-radius: 16px;
+   margin: 24px;
+
+}
+.card p{
+    line-height: 26px;
+    color:#5A5A5D ;
+}
+.card img{
+    width: 64px;
+}
+.card-1{
+    
+border: 1px solid rgba(251, 181, 99, 0.20);
+background-color: rgba(251, 181, 99, 0.05);
+
+}
+.card-2{
+   
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+
+}
+.card-3{
+   
+ 
+   
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+
+}
+
+
 @media screen and (max-width:600px) {
     .humburger{
         display: block;
@@ -168,7 +205,9 @@ padding: 16px;
     .popular-img{
         margin-top: 24px;
     }
-  
+  .first-row,.second-row{
+    flex-direction: column;
+  }
     
 }
 @media screen and (min-width:601px) and (max-width:991px) {
