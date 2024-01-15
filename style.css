@@ -123,8 +123,22 @@ nav{
 background: rgba(255, 255, 255, 0.30);
 padding: 16px;
 }
+/* Popular tours */
+.popular-tours-section{
+    display: grid;
+    grid-template-columns: repeat(2,540px);
+    justify-content: space-between;
+    margin: 100px auto;
+  
 
+}
 
+.popular-content p,.popular-content li{
+    line-height: 26px;
+}
+.popular-content button{
+    padding: 14px 35px;
+}
 
 @media screen and (max-width:600px) {
     .humburger{
@@ -146,6 +160,13 @@ padding: 16px;
 
     .search-section input,.search-section button,.search-section select{
         margin: 16px;
+    }
+    .popular-tours-section{
+        grid-template-columns: repeat(1,auto);
+
+    }
+    .popular-img{
+        margin-top: 24px;
     }
   
     
