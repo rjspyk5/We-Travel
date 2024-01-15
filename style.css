@@ -75,6 +75,7 @@ font-weight: 800;
 text-align: center;
 font-size: 20px;
 padding: 14px auto;
+border: 0;
 }
 
 .border-rounded{
@@ -98,12 +99,32 @@ nav{
 }
 /* banner section */
 .banner-section{
-    background-image: url(Images/Group\ 13\ \(1\)\ \(1\).png), linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) );
-   
-    
+    background-image: url(Images/Group\ 13\ \(1\)\ \(1\).png),linear-gradient(180deg, rgba(19, 19, 24, 0.80), rgba(19, 19, 24, 0.00) );
     background-repeat: no-repeat;
-    background-size: cover;
+     background-position: center;
+     background-blend-mode: darken;
+     padding: 106px 170px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   
 }
+.banner-section input,.banner-section select{
+    margin-right: 24px;
+    padding: 16px;
+    border: 0;
+    border-radius: 8px;
+ 
+}
+
+.search-section{
+    border-radius: 8px;
+background: rgba(255, 255, 255, 0.30);
+padding: 16px;
+}
+
+
 
 @media screen and (max-width:600px) {
     .humburger{
@@ -112,6 +133,21 @@ nav{
     .menu{
         display: none;
     }
+
+    .search-section{
+       flex-direction: column;
+      
+
+    }
+    .banner-section{
+        background-size: auto 850px;
+        padding: 16px 32px;
+    }
+
+    .search-section input,.search-section button,.search-section select{
+        margin: 16px;
+    }
+  
     
 }
 @media screen and (min-width:601px) and (max-width:991px) {
