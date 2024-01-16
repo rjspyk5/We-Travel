@@ -144,40 +144,66 @@ padding: 16px;
 .choose-section-img-container{
     display: grid;
     grid-template-areas: 
-    'iOne iOne iOne iOne iOne itwo itwo itwo itwo itwo' 
-    'ithree ithree ithree ifour ifour ifour ifour ifour ifive ifive' 
-    'isix isix isix isix isix iseven iseven iseven iseven iseven' 
+    'iOne iOne iOne iOne iOne iOne itwo itwo itwo itwo itwo itwo' 
+    'ithree ithree ithree ithree ifour ifour ifour ifour ifour ifive ifive ifive' 
+    'isix isix isix isix isix iseven iseven iseven iseven iseven iseven iseven' 
     ;
+    gap: 24px;
 
 }
+
+.choose-section-img-container div img{
+    height: 300px;
+}
+.choose-section-img-container div{
+    
+}
+
 .destination-img-card-1{
     grid-area: iOne;
+    position: relative;
     
 }
 .destination-img-card-2{
     grid-area: itwo;
+    position: relative;
 
 }
 .destination-img-card-3{
     grid-area: ithree;
+    position: relative;
 
 }
 .destination-img-card-4{
     grid-area: ifour;
+    position: relative;
 
 }
 .destination-img-card-5{
-    grid-area: ifive;
+    grid-area: ifive;position: relative;
 
 }
 .destination-img-card-6{
     grid-area: isix;
+    position: relative;
 
 }
 .destination-img-card-7{
     grid-area: iseven;
+    position: relative;
 
 }
+
+.choose-section-img-container div h6{
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 45%;
+    left: 40%;
+    color: white;
+    font-size: 20px;
+    font-weight: 800;
+} 
 
 /* Why Choose us */
 .card{
@@ -277,7 +303,23 @@ font-weight: 300;
     flex-direction: column;
   }
      
+  .choose-section-img-container div img{
+    max-height: 300px;
+}
 
+.choose-section-img-container{
+
+    grid-template-areas: 
+    'iOne'
+    'itwo' 
+    'ithree' 
+    'ifour' 
+    'ifive' 
+    'isix' 
+    'iseven' 
+    ;
+
+}
 
 }
 @media screen and (min-width:601px) and (max-width:991px) {
