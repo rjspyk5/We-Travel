@@ -64,6 +64,9 @@ header,main{
 .font-size-36{
     font-size: 2.2rem;
 }
+.line-height-26{
+    line-height: 1.5rem;
+}
 .text-center{
     text-align: center;
 }
@@ -240,6 +243,30 @@ background-color: rgba(251, 181, 99, 0.05);
     background: rgba(233, 68, 68, 0.05);
 
 }
+/* Newsletter style */
+   .newsletter-content{
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    border-radius: 16px;
+border: 1px solid #FF5400;
+   }
+   .newsletter-content input{
+    padding: 16px 20px;
+    margin: 16px 0;
+    border: 0;
+    border-radius: 8px;
+background-color: rgba(19, 19, 24, 0.05);
+   }
+   .newsletter-content p{
+    max-width: 350px;
+   }
+   .newsletter-content button{
+    padding: 16px 0;
+   }
+   .newsletter-content h6{
+    margin: 0 0 16px 0;
+   }
 
 
 /* footer style */
@@ -319,6 +346,11 @@ font-weight: 300;
     'iseven' 
     ;
 
+}
+
+.newsletter-section{
+    flex-direction: column;
+    margin: 20px 24px;
 }
 
 }
