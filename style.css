@@ -129,11 +129,15 @@ padding: 16px;
 /* Popular tours */
 .popular-tours-section{
     display: grid;
-    grid-template-columns: repeat(2,540px);
+    grid-template-columns: repeat(2,auto);
     justify-content: space-between;
+    gap: 2%;
     margin: 100px auto;
   
 
+}
+.popular-img img{
+    height: 100%;
 }
 
 .popular-content p,.popular-content li{
