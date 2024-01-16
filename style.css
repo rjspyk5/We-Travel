@@ -177,6 +177,35 @@ background-color: rgba(251, 181, 99, 0.05);
 }
 
 
+/* footer style */
+.logo img{
+    width: 46px;
+    height: 40px;
+    margin-right: 9px;
+ 
+}
+footer{
+    background-color: rgba(19, 19, 24, 0.05);
+}
+footer p{
+    margin: 0 auto;
+    max-width: 769px;
+    padding: 0 44px;
+}
+.footer-content{
+    max-width: 872px;
+    margin: 0 auto;
+}
+.icons i{
+  font-size: 24px;
+    margin: 2%;
+}
+.copyright{
+    color: #131318;
+font-size: 16px;
+font-weight: 300;
+}
+
 @media screen and (max-width:600px) {
     .humburger{
         display: block;
@@ -208,7 +237,9 @@ background-color: rgba(251, 181, 99, 0.05);
   .first-row,.second-row{
     flex-direction: column;
   }
-    
+     
+
+
 }
 @media screen and (min-width:601px) and (max-width:991px) {
     
