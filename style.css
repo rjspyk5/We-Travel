@@ -272,26 +272,7 @@ background-color: rgba(251, 181, 99, 0.05);
 
 }
 
-/* Deals and discount section */
 
-.deals-section-first-image{
-    background-image: url(Images/Group\ 13\ \(1\)\ \(1\).png),linear-gradient(180deg, rgba(19, 19, 24, 0.80), rgba(19, 19, 24, 0.00) );
-    background-repeat: no-repeat;
-     background-position: center;
-     background-blend-mode: darken;
-     padding: 106px 170px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-   
-}
-
-.box-under-deals{
-    border-radius: 8px;
-background: rgba(255, 255, 255, 0.30);
-padding: 16px;
-}
 /* Premium Section */
 .premium-card-container{
     display: flex;
