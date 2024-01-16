@@ -292,7 +292,34 @@ background-color: rgba(251, 181, 99, 0.05);
 background: rgba(255, 255, 255, 0.30);
 padding: 16px;
 }
+/* Premium Section */
+.premium-card-container{
+    display: flex;
+    justify-content: space-evenly;
+}
+.premium-card{
+    border: 0;
+    box-shadow: 1px 1px 8px 0 gray;
+    padding: 1.2rem;
+    background-color: #f5e0d53f;
+    margin-top: 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+}
+.premium-card:hover{
+    background-color: whitesmoke;
+}
+.premium-card button{
+    padding: 10px 20px;
+}
 
+.premium-card button:hover{
+    background-image: linear-gradient(180deg,rgb(225, 7, 102),rgb(241, 145, 34));
+   
+}
 /* Simple perfect place */
     
 .simple-perfect-section{
@@ -509,6 +536,15 @@ margin-top: 24px;
 padding-bottom: 31px;
 }
 
+.premium-card-container{
+    flex-direction: column;
+ 
+}
+.premium-card{
+   width: 80%;
+   text-align: center;
+   margin: 2% auto;
+}
 
 }
 
@@ -582,6 +618,14 @@ padding-bottom: 31px;
    .save-up h3{
     font-size: 25px;
 }
+.premium-card-container{
+    flex-direction: column;
+}
+.premium-card{
+    width: 80%;
+    text-align: center;
+    margin: 2% auto;
+ }
     
 }
 
