@@ -3,6 +3,7 @@
     font-family: 'Mulish', sans-serif;
 }
 
+
 /* universal style */
 a{
     text-decoration: none;
@@ -15,9 +16,14 @@ li{
 img{
     width: 100%;
 }
+body{
+    margin: 0;
+    padding: 0;
+}
 
 header,main{
     max-width: 1170px;
+    padding: 8px;
     margin: 0 auto;
 }
 /* Shared Style */
@@ -293,10 +299,7 @@ padding: 16px;
     display: grid;
     grid-template-columns: repeat(2,50%);
     justify-content: space-between;
- 
     margin: 100px auto;
-  
-
 }
 .simple-perfect-img img{
     height: 100%;
@@ -334,6 +337,12 @@ padding: 16px;
 
 
 /* Newsletter style */
+.newsletter-section{
+    display: grid;
+    grid-template-columns: 34% 62%;
+ gap: 4%;
+    margin: 100px auto;
+}
    .newsletter-content{
     display: flex;
     
@@ -341,12 +350,7 @@ padding: 16px;
     padding: 4%;
     border-radius: 16px;
 border: 1px solid #FF5400;
-
-
    }
-
-
-
    .newsletter-section,.simple-perfect-section{
     padding: 1%;
    }
@@ -400,12 +404,17 @@ background-color: rgba(19, 19, 24, 0.05);
  
 }
 footer{
-    background-color: rgba(19, 19, 24, 0.05);
+    background-color: rgba(19, 19, 24, 0.05);  
+    margin: 0;
+    padding: 0;
 }
 footer p{
     margin: 0 auto;
     max-width: 769px;
     padding: 0 44px;
+}
+footer .logo{
+    padding-top: 110px;
 }
 .footer-content{
     max-width: 872px;
@@ -419,6 +428,9 @@ footer p{
     color: #131318;
 font-size: 16px;
 font-weight: 300;
+padding-bottom: 110px;
+margin-top: 24px;
+
 }
 
 @media screen and (max-width:600px) {
@@ -473,8 +485,7 @@ font-weight: 300;
 }
 
 .newsletter-section{
-    flex-direction: column;
-    margin: 20px 24px;
+   grid-template-columns: repeat(1,1fr);
 }
 
 
@@ -491,6 +502,11 @@ font-weight: 300;
  
  .simple-perfect-content{
     padding-right: 0;
+}
+
+.copyright,footer .logo{
+  
+padding-bottom: 31px;
 }
 
 
@@ -522,12 +538,21 @@ font-weight: 300;
     
 
 
-    .popular-tours-section{
+    .popular-tours-section,.simple-perfect-section{
   
         grid-template-columns: repeat(1,auto);
     }
+
+
     .popular-img{
         margin-top: 24px;
+    }
+    .simple-perfect-img,.newsletter-img{
+        margin-top: 4%;
+     }
+     
+     .simple-perfect-content{
+        padding-right: 0;
     }
     
     .choose-section-img-container div img{
@@ -547,13 +572,22 @@ font-weight: 300;
         ;
     
     }
-   
+    .newsletter-section{
+        text-align: center;
+        grid-template-columns: repeat(1,1fr);
+     }
+   .newsletter-section p{
+    margin: 0 auto;
+   }
+   .save-up h3{
+    font-size: 25px;
+}
     
 }
 
 @media screen and (min-width:769px) and (max-width:991px) {
     .save-up h3{
-        font-size: 20px;
+        font-size: 25px;
     }
    .banner-section{
     padding: auto;
@@ -563,7 +597,7 @@ font-weight: 300;
 }
 @media screen and (min-width:992px) and (max-width:1200px) {
     .save-up h3{
-        font-size: 25px;
+        font-size: 28px;
     }
     
 }
