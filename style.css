@@ -140,6 +140,45 @@ padding: 16px;
     padding: 14px 35px;
 }
 
+/* Destination style */
+.choose-section-img-container{
+    display: grid;
+    grid-template-areas: 
+    'iOne iOne iOne iOne iOne itwo itwo itwo itwo itwo' 
+    'ithree ithree ithree ifour ifour ifour ifour ifour ifive ifive' 
+    'isix isix isix isix isix iseven iseven iseven iseven iseven' 
+    ;
+
+}
+.destination-img-card-1{
+    grid-area: iOne;
+    
+}
+.destination-img-card-2{
+    grid-area: itwo;
+
+}
+.destination-img-card-3{
+    grid-area: ithree;
+
+}
+.destination-img-card-4{
+    grid-area: ifour;
+
+}
+.destination-img-card-5{
+    grid-area: ifive;
+
+}
+.destination-img-card-6{
+    grid-area: isix;
+
+}
+.destination-img-card-7{
+    grid-area: iseven;
+
+}
+
 /* Why Choose us */
 .card{
     max-width: 573px;
