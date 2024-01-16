@@ -118,7 +118,11 @@ nav{
     padding: 16px;
     border: 0;
     border-radius: 8px;
+  
  
+}
+.banner-section button{
+    padding: 16px 35px;
 }
 
 .search-section{
@@ -148,6 +152,16 @@ padding: 16px;
 }
 
 /* Destination style */
+
+.choose-destination-section >p ,.why-us-section>p{
+    margin: 0 auto 48px auto;
+    max-width: 643px;
+    color: rgba(19, 19, 24, 0.70);
+ 
+    font-size: 16px;
+    
+    line-height: 26px; 
+}
 .choose-section-img-container{
     display: grid;
     grid-template-areas: 
@@ -219,9 +233,14 @@ padding: 16px;
    margin: 24px;
 
 }
+
+.card h6{
+    margin: 1rem 0;
+}
 .card p{
     line-height: 26px;
     color:#5A5A5D ;
+    max-width: 486px;
 }
 .card img{
     width: 64px;
@@ -421,6 +440,7 @@ font-weight: 300;
     }
 
     .search-section input,.search-section button,.search-section select{
+        padding: 16px;
         margin: 16px;
     }
     .popular-tours-section,.simple-perfect-section{
@@ -476,10 +496,69 @@ font-weight: 300;
 
 }
 
-@media screen and (min-width:600px) and (max-width:992px) {
+@media screen and (min-width:600px) and (max-width:768px) {
+    .humburger{
+        display: block;
+    }
+    .menu{
+        display: none;
+    }
+
+    .search-section{
+       flex-direction: column;
+      
+
+    }
+    .banner-section{
+        background-size: auto 552px;
+        padding: 16px 32px;
+    }
+    .search-section input,.search-section button,.search-section select{
+        padding: 16px;
+        margin: 16px;
+      
+       
+    }
+    
+
+
+    .popular-tours-section{
+  
+        grid-template-columns: repeat(1,auto);
+    }
+    .popular-img{
+        margin-top: 24px;
+    }
+    
+    .choose-section-img-container div img{
+        max-height: 300px;
+    }
+    
+    .choose-section-img-container{
+    
+        grid-template-areas: 
+        'iOne'
+        'itwo' 
+        'ithree' 
+        'ifour' 
+        'ifive' 
+        'isix' 
+        'iseven' 
+        ;
+    
+    }
+   
+    
+}
+
+@media screen and (min-width:769px) and (max-width:991px) {
     .save-up h3{
         font-size: 20px;
     }
+   .banner-section{
+    padding: auto;
+   }
+
     
 }
 @media screen and (min-width:992px) and (max-width:1200px) {
