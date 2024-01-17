@@ -396,7 +396,7 @@ background-color: rgba(19, 19, 24, 0.05);
     
  }
  .save-up h3{
-   
+   font-size: 1.8rem;
     margin: 4px;
     font-weight: 800;
  }
@@ -499,10 +499,10 @@ margin-top: 24px;
 
 
  .save-up h3{
-    font-size: 21.138px;
+    font-size: 17px;
  }
  .save-up p{
-    font-size: 15.854px;
+    font-size: 13px;
  }
  .simple-perfect-img,.newsletter-img{
     margin-top: 4%;
@@ -607,22 +607,5 @@ padding-bottom: 31px;
     text-align: center;
     margin: 2% auto;
  }
-    
-}
-
-@media screen and (min-width:769px) and (max-width:991px) {
-    .save-up h3{
-        font-size: 25px;
-    }
-   .banner-section{
-    padding: auto;
-   }
-
-    
-}
-@media screen and (min-width:992px) and (max-width:1200px) {
-    .save-up h3{
-        font-size: 28px;
-    }
     
 }
